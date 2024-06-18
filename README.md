@@ -13,16 +13,20 @@ brew update;brew upgrade
 
 First, tap the repository:
 ```bash
-$ brew tap SwordOfDamocles/ttork
+brew tap SwordOfDamocles/ttork
 ```
 
 Then install:
 ```bash
-$ brew install swordofdamocles/ttork/ttork
+brew install swordofdamocles/ttork/ttork
 ```
 
 Check installed version:
 ```bash
-$ ttork version
+ttork version
+```
+
+Which should give output like:
+```bash
 ttork, version 0.3.1
 ```
