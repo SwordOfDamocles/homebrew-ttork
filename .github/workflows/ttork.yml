@@ -10,7 +10,7 @@ jobs:
   regenerate:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Create a fresh virtual environment and generate formula
       run: |
         python3 -m venv venv
