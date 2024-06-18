@@ -1,7 +1,7 @@
 class Ttork < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
+  desc "Multiple-Repository Tilt Orchestration Tool"
   homepage "None"
   url "https://files.pythonhosted.org/packages/9e/ef/8fde889c3eee154840ebfb9729ef44ba450b5bb91ab6ed2e9a2dd31e8508/ttork-0.3.1.tar.gz"
   sha256 "e979d22e116831e01ddec5cc9ec37bfc25eb4e7afeeab959fa805185b3e7e8fb"
@@ -144,7 +144,6 @@ class Ttork < Formula
   end
 
   test do
-    false
+    assert_match "ttork, version", shell_output("#{bin}/ttork version")
   end
 end
-
