@@ -3,8 +3,8 @@ class Ttork < Formula
 
   desc "Multiple-Repository Tilt Orchestration Tool"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/9e/ef/8fde889c3eee154840ebfb9729ef44ba450b5bb91ab6ed2e9a2dd31e8508/ttork-0.3.1.tar.gz"
-  sha256 "e979d22e116831e01ddec5cc9ec37bfc25eb4e7afeeab959fa805185b3e7e8fb"
+  url "https://files.pythonhosted.org/packages/a1/2d/b5725935e84023f377c59034df71901e928851adf391b779e6cb92e49051/ttork-0.4.0.tar.gz"
+  sha256 "da70aef75ba6b992c52bfd18d52b2c92c3924733125ebcee53c5ccc311333437"
 
   depends_on "python3"
 
