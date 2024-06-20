@@ -3,8 +3,8 @@ class Ttork < Formula
 
   desc "Multiple-Repository Tilt Orchestration Tool"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/a1/2d/b5725935e84023f377c59034df71901e928851adf391b779e6cb92e49051/ttork-0.4.0.tar.gz"
-  sha256 "da70aef75ba6b992c52bfd18d52b2c92c3924733125ebcee53c5ccc311333437"
+  url "https://files.pythonhosted.org/packages/cf/9d/2ca0e415997a8717188a53b4f5ca2fdb1b0f88acee2e08fc4bad773b9ecb/ttork-0.4.1.tar.gz"
+  sha256 "4d35a81d70a12285e44694ce478f7f73b28610a3d4976830c4168b6963d4dd3c"
 
   depends_on "python3"
 
@@ -114,8 +114,8 @@ class Ttork < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/7b/c0/6ef51ae8729c1e2aa13f303914a1069f90e016e6669ddea489d06c70bb28/textual-0.69.0.tar.gz"
-    sha256 "73736996f468f20efdc8854482db02bf8799586430a39bc0a7c97f91043081b0"
+    url "https://files.pythonhosted.org/packages/21/02/161d6e3dfd1d41ce5b53cee7a85cab0c6df6bacdda75f6c3a5c774beacef/textual-0.70.0.tar.gz"
+    sha256 "9ca3f615b5cf442246325e40ef8255424c42b4241d3c62f9c0f96951bab82b1e"
   end
 
   resource "typing-extensions" do
