@@ -30,3 +30,11 @@ Which should give output like:
 ```bash
 ttork, version 0.3.1
 ```
+
+## Updating this repository
+For making a new release available via homebrew for this project:
+
+1. Disable `main` branch protections
+2. Go to Github actions, and click on `Publish ttork`
+3. Manually run workflow
+4. Re-enable `main` branch protections
