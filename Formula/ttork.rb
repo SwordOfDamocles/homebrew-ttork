@@ -3,8 +3,8 @@ class Ttork < Formula
 
   desc "Multiple-Repository Tilt Orchestration Tool"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/cf/9d/2ca0e415997a8717188a53b4f5ca2fdb1b0f88acee2e08fc4bad773b9ecb/ttork-0.4.1.tar.gz"
-  sha256 "4d35a81d70a12285e44694ce478f7f73b28610a3d4976830c4168b6963d4dd3c"
+  url "https://files.pythonhosted.org/packages/23/e7/771b587dde981b9d088e88aefff0aa86cec340647bebea2421630a9e9012/ttork-0.4.2.tar.gz"
+  sha256 "4fd3bb2a268e89721202143c742a254b15c0379a609a850e52417cdfb20bde88"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Ttork < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
-    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
+    url "https://files.pythonhosted.org/packages/c2/02/a95f2b11e207f68bc64d7aae9666fed2e2b3f307748d5123dffb72a1bbea/certifi-2024.7.4.tar.gz"
+    sha256 "5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"
   end
 
   resource "charset-normalizer" do
@@ -24,8 +24,8 @@ class Ttork < Formula
   end
 
   resource "google-auth" do
-    url "https://files.pythonhosted.org/packages/be/f6/b22ef3a4b24b5b0d0fcf8426080eab66ccdfaaf73a61e37e76693c43f7f6/google-auth-2.30.0.tar.gz"
-    sha256 "ab630a1320f6720909ad76a7dbdb6841cdf5c66b328d690027e4867bdfb16688"
+    url "https://files.pythonhosted.org/packages/8c/a3/cc4dc2e8a7f67012a26dec5b6b1fdf5261b12e7d54981c88de2580315726/google_auth-2.32.0.tar.gz"
+    sha256 "49315be72c55a6a37d62819e3573f6b416aca00721f7e3e31a008d928bf64022"
   end
 
   resource "idna" do
@@ -114,8 +114,8 @@ class Ttork < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/21/02/161d6e3dfd1d41ce5b53cee7a85cab0c6df6bacdda75f6c3a5c774beacef/textual-0.70.0.tar.gz"
-    sha256 "9ca3f615b5cf442246325e40ef8255424c42b4241d3c62f9c0f96951bab82b1e"
+    url "https://files.pythonhosted.org/packages/23/40/100a105ab455be14cc5b96e2ecb0196ba28c506dcfd0c497a796db3c90c5/textual-0.72.0.tar.gz"
+    sha256 "14174ce8d49016a85aa6c0669d0881b5419e98cf46d429f263314295409ed262"
   end
 
   resource "typing-extensions" do
